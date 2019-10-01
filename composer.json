@@ -1,0 +1,13 @@
+{
+    "name": "zahidcse/hello-world",
+    "description": "Hello World",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zahid7124",
+            "email": "zahid@nochallenge.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
