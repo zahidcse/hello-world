@@ -1,17 +1,38 @@
 {
-    "name": "zahidcse/hello-world",
-    "description": "A simple hello world composer package",
-    "type": "library",
-    "license": "MIT",
+    "name": "mikestratton/hello-world",
     "authors": [
         {
-            "name": "Zahid Hasan",
-            "email": "zahiislink@gmail.com"
+            "name": "zahid",
+            "email": "zahiislink@gmail.com",
+            "role": "developer"
         }
     ],
-    "minimum-stability": "stable",
+
+    "description": "Simple template for a Laravel Package.",
+    "keywords": [
+        "laravel",
+        "package",
+        "template",
+        "packagist"
+    ],
+    "license": "MIT",
+    
+    "require": {},
+    
     "autoload": {
-        "psr-4": {"zahidcse\\HelloWorld\\": "src/"}
-    },
-    "require": {}
+        "psr-4": {
+            "Zahidcse\\Hello\\": "src/"
+        }
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "Zahidcse\\Hello\\HelloServiceProvider"
+          ]
+        },
+        "thanks": {
+            "name": "devdojo/welcome",
+            "url": "https://github.com/thedevdojo/welcome"
+        }
+      }
 }
