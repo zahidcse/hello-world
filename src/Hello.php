@@ -1,11 +1,25 @@
 <?php
-
-namespace zahidcse\HelloWorld;
-
-class Hello
+namespace Zahidcse\Hello;
+use Illuminate\Support\ServiceProvider;
+class HelloServiceProvider extends ServiceProvider
 {
-    public function greet($greet = "Hello World")
+    /**
+     * Register services.
+     *
+     * @return void
+     */
+    public function register()
     {
-        return $greet;
+        
+    }
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+  
+       
     }
 }
