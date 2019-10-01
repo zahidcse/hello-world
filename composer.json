@@ -1,5 +1,5 @@
 {
-    "name": "mikestratton/hello-world",
+    "name": "zahidcse/hello-world",
     "authors": [
         {
             "name": "zahid",
@@ -18,6 +18,8 @@
     "license": "MIT",
     
     "require": {},
+    
+    "minimum-stability" : "dev",
     
     "autoload": {
         "psr-4": {
