@@ -11,13 +11,13 @@
         "client",
         "HTTP client"
     ],
-    "homepage": "http://guzzlephp.org/",
+    "homepage": "https://github.com/zahidcse/",
     "license": "MIT",
     "authors": [
         {
             "name": "zahid Hasan",
             "email": "zahiislink@gmail.com",
-            "homepage": "https://github.com/mtdowling"
+            "homepage": "https://github.com/zahidcse"
         }
     ],
     "require": {
