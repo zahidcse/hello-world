@@ -1,5 +1,5 @@
 <?php
-namespace Zahidcse\Hello;
+namespace Zahidcse;
 use Illuminate\Support\ServiceProvider;
 class HelloServiceProvider extends ServiceProvider
 {
