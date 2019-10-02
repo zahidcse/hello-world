@@ -33,6 +33,7 @@
     "config": {
         "sort-packages": true
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "dev-master"
